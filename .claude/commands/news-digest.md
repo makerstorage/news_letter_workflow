@@ -1,29 +1,38 @@
 ---
-description: Generates AI news newsletter by crawling multiple sources in parallel using Docker
+description: Generates AI news newsletter by orchestrating crawl-single-url subagents in parallel
 argument-hint: [sources-file]
 ---
 
 # Purpose
 
-Automate the generation of an AI news newsletter by crawling multiple news sources in parallel using Playwright Docker containers, then analyzing and compiling the top stories into a formatted markdown newsletter.
+Coordinate multiple crawl-single-url subagents to process news sources in parallel, then analyze and compile the results into a formatted markdown newsletter. You act as the main coordinator that delegates crawling work to specialized subagents.
 
 ## Variables
 
 - **SOURCES_FILE**: $1 (required) - Path to input file containing URLs and output directory names
 - **OUTPUT_BASE_DIR**: `pw-out/` - Base directory for crawler outputs
-- **DOCKER_IMAGE**: `pw-crawler:latest` - Docker image name for the Playwright crawler
 - **TIMESTAMP**: Current date in YYYY-MM-DD format for output filename
 - **NEWSLETTER_OUTPUT**: `pw-out/ai-news-digest-{TIMESTAMP}.md`
 
+**Note:** Docker configuration is handled by the crawl-single-url subagent.
+
 ## Instructions
-- Read the sources file to extract URLs and their corresponding output directories
-- Check if the Docker image exists; if not, automatically build it
-- Run all Docker crawler commands in parallel for maximum efficiency
-- Do not use subagents for the docker execution - use multiple Bash tool calls in parallel
-- After all crawlers complete, read all result.json files
-- Analyze content to identify important stories (duplicates across sources = important)
+
+**Orchestration Pattern:**
+- You are the coordinator agent managing multiple subagents
+- Use the Task tool to invoke the `crawl-single-url` subagent for each URL
+- Launch all subagents in parallel for maximum efficiency
+- After all subagents complete, collect and analyze their results
 - Generate a newsletter with the top 5 most important stories
-- Include all article links in the output
+
+**Key Steps:**
+1. Read the sources file to extract URLs and output directory names
+2. Clean the output directory
+3. Launch multiple Task tool calls in parallel (one per URL) to invoke the crawl-single-url subagent
+4. Wait for all subagents to complete
+5. Read all result.json files produced by subagents
+6. Analyze content to identify important stories (duplicates across sources = important)
+7. Generate and save the newsletter
 
 ## Workflow
 
@@ -51,27 +60,32 @@ Purpose:
 - This ensures fresh results and prevents mixing old and new data
 - Create a fresh `pw-out/` directory
 
-### 3. Check and Build Docker Image
+### 3. Prepare for Crawling
 
-- Check if image exists: `docker images | grep pw-crawler`
-- If image doesn't exist, automatically build it: `docker build -t pw-crawler:latest .`
-- Wait for the build to complete before proceeding to crawling
+**Note:** The crawl-single-url subagent will handle Docker image checking and building automatically. You don't need to manage Docker operations directly - that's the subagent's responsibility.
 
-### 4. Run Docker Crawlers in Parallel
+### 4. Delegate to Subagents in Parallel
 
-For each source in the SOURCES_FILE:
-  - Create output directory: `mkdir -p {OUTPUT_BASE_DIR}/{output-dir-name}`
-  - Run docker command:
-    ```bash
-    docker run --rm \
-      -e TARGET_URL="{url}" \
-      -v "$(pwd)/{OUTPUT_BASE_DIR}/{output-dir-name}:/output" \
-      pw-crawler:latest
-    ```
+For each source in the SOURCES_FILE, delegate to the `crawl-single-url` subagent:
 
-**EXECUTION REQUIREMENTS:**
-- Use multiple Bash tool calls in a single message to run all docker commands in parallel
-- Wait for all containers to complete before proceeding
+**CRITICAL: Use the Task tool to invoke subagents**
+- Send a single message with multiple Task tool calls (one per URL)
+- Each Task should invoke the `crawl-single-url` subagent with a clear prompt
+- Example prompt format: "Crawl {URL} and save results to output name {output-name}"
+
+**Example of parallel invocation:**
+```markdown
+Send one message with multiple Task tool uses:
+- Task 1: subagent_type="crawl-single-url", prompt="Crawl https://techcrunch.com/tag/ai/ and save to techcrunch"
+- Task 2: subagent_type="crawl-single-url", prompt="Crawl https://venturebeat.com/category/ai/ and save to venturebeat"
+- Task 3: subagent_type="crawl-single-url", prompt="Crawl https://example.com/ai-news and save to example"
+```
+
+**What happens:**
+- All subagents run independently and in parallel
+- Each subagent handles Docker operations, error handling, and output generation
+- Each subagent produces a result.json file in its designated output directory
+- Wait for all subagents to complete before proceeding
 
 ### 5. Collect Results
 
@@ -148,10 +162,11 @@ The generated newsletter should follow this structure:
 
 ## Error Handling
 
-- If Docker build fails, report the error and exit
-- If a Docker container fails, note which source failed but continue with others
+- If a subagent fails to crawl a source, note which source failed but continue with others
 - If no result.json is found for a source, skip it and report to user
 - If fewer than 5 stories are found, include whatever is available
+- Provide a summary of successful vs failed crawls at the end
+- Subagents handle their own Docker-related errors independently
 
 ## Example Usage
 
@@ -163,10 +178,36 @@ The generated newsletter should follow this structure:
 /news-digest my-custom-sources.txt
 ```
 
+## Coordinator-Subagent Pattern
+
+This workflow uses a **delegation pattern**:
+
+```
+User executes: /news-digest sources.txt
+    ↓
+Slash command expands to this prompt
+    ↓
+You (coordinator agent) read this prompt
+    ↓
+You use Task tool to launch multiple crawl-single-url subagents in parallel
+    ↓
+Each subagent independently crawls one URL and produces result.json
+    ↓
+You collect all results and generate the newsletter
+```
+
+**Benefits:**
+- **Separation of concerns**: Coordinator orchestrates, subagents execute
+- **Parallel execution**: Multiple subagents run simultaneously for speed
+- **Reusability**: crawl-single-url can be used independently
+- **Error isolation**: One subagent failure doesn't crash the entire workflow
+- **Maintainability**: Each component can be improved independently
+
 ## Notes
 
-- The crawler automatically handles consent banners and cookie dialogs
+- Each crawl-single-url subagent handles all Docker operations independently
+- Subagents automatically handle consent banners and cookie dialogs
 - Each crawler has a 20-second timeout for page loads
 - RSS feeds are auto-detected and fetched when available
 - Images, media, and fonts are blocked to speed up crawling
-- The crawler uses a realistic user agent to avoid detection
+- Subagents report structured results back to you for analysis
