@@ -1,0 +1,71 @@
+{
+  "requested_url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+  "final_url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+  "status": 200,
+  "title": "Artificial intelligence | MIT Technology Review",
+  "snippet": "The Algorithm\n\nA weekly newsletter that helps demystify artificial intelligence.\n\nEnter your email\nSIGN UP\nBy signing up, you agree to our Terms of Service & Privacy Policy.\nArtificial intelligence\nThe latest advances in the quest to build machines that can reason, learn, and act intelligently.\nNEWEST TO OLDEST\nLatestArtificial intelligence\nOpenAI’s new LLM exposes the secrets of how AI really works\n\nThe experimental model won't compete with the biggest and best, but it could tell us why they behave in weird ways—and how trustworthy they really are.\n\nArtificial intelligence\nGoogle DeepMind is using Gemini to train agents inside Goat Simulator 3\n\nSIMA 2, which can figure out how to solve problems inside virtual worlds, could lead to more general-purpose agents and better robots.\n\nArtificial intelligence\nHow AGI became the most consequential conspiracy theory of our time\n\nThe idea that machines will be as smart as—or smarter than—humans has hijacked an entire industry. But look closely and you’ll see it’s a myth that persists for many of the same reasons conspiracies do.\n\nArtificial intelligence\nChatbots are surprisingly effective at debunking conspiracy theories\n\nTurns out many believers do respond positively when presented with the right evidence and arguments.\n\nSponsored\nImproving VMware migration workflows with agentic AI\n\nAs licensing costs surge and cloud use becomes more strategic, AI agents are turning months of manual migration work for IT teams into weeks of machine-assisted automation.\n\nIn partnership withEPAM\n\nArtificial intelligence\nThe AI Hype Index: Data centers’ neighbors are pivoting to power blackouts\n\nMIT Technology Review’s highly subjective take on the latest buzz about AI\n\nArtificial intelligence\nDeepSeek may have found a new way to improve AI’s ability to remember\n\nInstead of using text tokens, the Chinese AI company is packing information into images.\n\nArtificial intelligence\n“We will never build a sex robot,” says Mustafa Suleyman\n\nA conversation with the Microsoft AI boss about boundaries, digital species, and the future of chatbots.\n\nArtificial intelligence\nAn AI adoption riddle\n\nIf AI’s hype has been punctured, I couldn’t find a company willing to talk about it.\n\nArtificial intelligence\nDispatch: Partying at one of Africa’s largest AI gatherings\n\nNyalleng Moorosi is part of a movement aimed at involving more African voices in AI policymaking.\n\nLOAD MORE STORIES\nALL TOPICS",
+  "links": [
+    {
+      "text": "Terms of Service",
+      "url": "https://www.technologyreview.com/terms-of-service"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.technologyreview.com/privacy"
+    },
+    {
+      "text": "Artificial intelligence",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/"
+    },
+    {
+      "text": "OpenAI’s new LLM exposes the secrets of how AI really works",
+      "url": "https://www.technologyreview.com/2025/11/13/1127914/openais-new-llm-exposes-the-secrets-of-how-ai-really-works/"
+    },
+    {
+      "text": "Google DeepMind is using Gemini to train agents inside Goat Simulator 3",
+      "url": "https://www.technologyreview.com/2025/11/13/1127921/google-deepmind-is-using-gemini-to-train-agents-inside-goat-simulator-3/"
+    },
+    {
+      "text": "How AGI became the most consequential conspiracy theory of our time",
+      "url": "https://www.technologyreview.com/2025/10/30/1127057/agi-conspiracy-theory-artifcial-general-intelligence/"
+    },
+    {
+      "text": "Chatbots are surprisingly effective at debunking conspiracy theories",
+      "url": "https://www.technologyreview.com/2025/10/30/1126471/chatbots-are-surprisingly-effective-at-debunking-conspiracy-theories/"
+    },
+    {
+      "text": "Improving VMware migration workflows with agentic AI",
+      "url": "https://www.technologyreview.com/2025/11/12/1124919/improving-vmware-migration-workflows-with-agentic-ai/"
+    },
+    {
+      "text": "The AI Hype Index: Data centers’ neighbors are pivoting to power blackouts",
+      "url": "https://www.technologyreview.com/2025/10/29/1126834/the-ai-hype-index-data-centers-neighbors-are-pivoting-to-power-blackouts/"
+    },
+    {
+      "text": "DeepSeek may have found a new way to improve AI’s ability to remember",
+      "url": "https://www.technologyreview.com/2025/10/29/1126932/deepseek-ocr-visual-compression/"
+    },
+    {
+      "text": "“We will never build a sex robot,” says Mustafa Suleyman",
+      "url": "https://www.technologyreview.com/2025/10/28/1126781/we-will-never-build-a-sex-robot-says-mustafa-suleyman/"
+    },
+    {
+      "text": "An AI adoption riddle",
+      "url": "https://www.technologyreview.com/2025/10/28/1126687/an-ai-adoption-riddle/"
+    },
+    {
+      "text": "Dispatch: Partying at one of Africa’s largest AI gatherings",
+      "url": "https://www.technologyreview.com/2025/10/22/1125361/africa-ai-policymaking-nyalleng-moorosi/"
+    },
+    {
+      "text": "All topics",
+      "url": "https://www.technologyreview.com/all-topics"
+    }
+  ],
+  "feeds": [],
+  "discovered_feed_urls": [],
+  "timings_ms": {
+    "total": 1381
+  },
+  "ts": "2025-11-17T10:56:21.386Z"
+}

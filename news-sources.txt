@@ -1,0 +1,15 @@
+# AI News Sources Configuration
+# Format: URL | output-directory-name
+# Lines starting with # are comments and will be ignored
+
+# Startup and product launches, funding rounds, AI industry news
+https://techcrunch.com/tag/artificial-intelligence/ | techcrunch
+
+# Enterprise AI, generative-AI research, and company updates
+https://venturebeat.com/category/ai/ | venturebeat
+
+# Academic research, policy, and deep-tech AI breakthroughs
+https://www.technologyreview.com/topic/artificial-intelligence/ | mittechreview
+
+# Technical deep dives and AI coverage
+# https://arstechnica.com/tag/ai/ | arstechnica

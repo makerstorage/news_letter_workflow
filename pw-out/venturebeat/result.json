@@ -1,0 +1,163 @@
+{
+  "requested_url": "https://venturebeat.com/category/ai/",
+  "final_url": "https://venturebeat.com/category/ai",
+  "status": 200,
+  "title": "VentureBeat | Transformative tech coverage that matters",
+  "snippet": "AI\nData\nSecurity\nSpecial Issues\nVideo\nNewsletters\nFeatured\nFrom shiny object to sober reality: The vector database story, two years later\n\nWhen I first wrote “Vector databases: Shiny object syndrome and the case of a missing unicorn” in March 2024, the industry was awash in hype. Vector databases were positioned as the next big thing — a must-have infrastructure layer for the gen AI era. Billions of venture dollars flowed, developers rushed to integrate embeddings into their pipelines and analysts breathlessly tracked funding rounds for Pinecone, Weaviate, Chroma, Milvus and a dozen others.\n\nAmit Verma, Neuron7\nNovember 16, 2025\nHuman-centric IAM is failing: Agentic AI requires a new identity control plane\n\nThe race to deploy agentic AI is on. Across the enterprise, systems that can plan, take actions and collaborate across business applications promise unprecedented efficiency. But in the rush to automate, a critical component is being overlooked: Scalable security. We are building a workforce of digital employees without giving them a secure way to log in, access data and do their jobs without creating catastrophic risk.\n\nMichelle Buckner\nNovember 16, 2025\nGoogle’s new AI training method helps small models tackle complex reasoning\n\nResearchers at Google Cloud and UCLA have proposed a new reinforcement learning framework that significantly improves the ability of language models to learn very challenging multi-step reasoning tasks. Supervised Reinforcement Learning (SRL) reformulates problem-solving as a sequence of logical “actions,” providing rich learning signals during the training process.\n\nBen Dickson\nNovember 15, 2025\nChatGPT Group Chats are here … but not for everyone (yet)\n\nIt was originally found in leaked code and publicized by AI influencers on X, but OpenAI has made it official: ChatGPT now offers Group Chats, allowing multiple users to join the same, single ChatGPT conversation and send messages to each other and the underlying large language model (LLM), online and via its mobile apps.\n\nCarl Franzen\nNovember 14, 2025\nSubscribe to get latest news!\n\nDeep insights for enterprise AI, data, and security leaders\n\nGet updates\nOpenAI experiment finds that sparse models could give AI builders the tools to debug neural networks\n\nUnderstanding how models choose to respond, a big selling point of reasoning models for enterprises, can provide a level of trust for organizations when they turn to AI models for insights.\n\nEmilia David\nNovember 14, 2025\nBaidu unveils proprietary ERNIE 5 beating GPT-5 performance on charts, document understanding and more\n\nMere hours after OpenAI updated its flagship foundation model GPT-5 to GPT-5.1, promising reduced token usage overall and a more pleasant personality with more preset options, Chinese search giant Baidu unveiled its next-generation foundation model, ERNIE 5.0, alongside a suite of AI product upgrades and strategic international expansions.\n\nCarl Franzen\nNovember 13, 2025\nUpwork study shows AI agents excel with human partners but fail independently\n\nArtificial intelligence agents powered by the world's most advanced language models routinely fail to complete even straightforward professional tasks on their own, according to groundbreaking research released Thursday by Upwork, the largest online work marketplace.\n\nMichael Nuñez\nNovember 13, 2025\nInside LinkedIn’s generative AI cookbook: How it scaled people search to 1.3 billion users\n\nLinkedIn is launching its new AI-powered people search this week, after what seems like a very long wait for what should have been a natural offering for generative AI.\n\nMatt Marshall\nNovember 13, 2025\nAlembic melted GPUs chasing causal A.I. — now it's running one of the fastest supercomputers in the world\n\nThe San Francisco-based startup, which builds AI systems that identify cause-and-effect relationships rather than mere correlations, is using a significant portion of the capital to deploy what it claims is one of the fastest privately owned supercomputers ever built — an Nvidia NVL72 superPOD that will power its enterprise-grade causal AI models.\n\nMichael Nuñez\nNovember 13, 2025\nWeibo's new open source AI model VibeThinker-1.5B outperforms DeepSeek-R1 on $7,800 post-training budget\n\nAnother day in late 2025, another impressive result from a Chinese company in open source artificial intelligence.\n\nCarl Franzen\nNovember 12, 2025\nDeductive AI projects 1,000+ annual engineering hours saved at DoorDash\n\nAs software systems grow more complex and AI tools generate code faster than ever, a fundamental problem is getting worse: Engineers are drowning in debugging work, spending up to half their time hunting down the causes of software failures instead of building new products. The challenge has become so acute that it's creating a new category of tooling — AI agents that can diagnose production failures in minutes instead of hours.\n\nMichael Nuñez\nNovember 12, 2025\nOpenAI reboots ChatGPT experience with GPT-5.1 after mixed reviews of GPT-5\n\nChatGPT is about to become faster and more conversational as OpenAI upgrades its flagship model GPT-5 to GPT-5.1.\n\nEmilia David\nNovember 12, 2025",
+  "links": [
+    {
+      "text": "Security",
+      "url": "https://venturebeat.com/category/security"
+    },
+    {
+      "text": "Special Issues",
+      "url": "https://venturebeat.com/venturebeat-special-issues"
+    },
+    {
+      "text": "Newsletters",
+      "url": "https://venturebeat.com/newsletters"
+    },
+    {
+      "text": "From shiny object to sober reality: The vector database story, two years later",
+      "url": "https://venturebeat.com/ai/from-shiny-object-to-sober-reality-the-vector-database-story-two-years-later"
+    },
+    {
+      "text": "Vector databases: Shiny object syndrome and the case of a missing unicorn",
+      "url": "https://venturebeat.com/ai/vector-databases-shiny-object-syndrome-and-the-case-of-a-missing-unicorn"
+    },
+    {
+      "text": "Pinecone",
+      "url": "https://www.pinecone.io/"
+    },
+    {
+      "text": "Weaviate",
+      "url": "https://weaviate.io/"
+    },
+    {
+      "text": "Amit Verma, Neuron7",
+      "url": "https://venturebeat.com/author/amit-verma-neuron7"
+    },
+    {
+      "text": "Human-centric IAM is failing: Agentic AI requires a new identity control plane",
+      "url": "https://venturebeat.com/security/human-centric-iam-is-failing-agentic-ai-requires-a-new-identity-control"
+    },
+    {
+      "text": "agentic AI is on",
+      "url": "https://venturebeat.com/ai/6-proven-lessons-from-the-ai-projects-that-broke-before-they-scaled"
+    },
+    {
+      "text": "Michelle Buckner",
+      "url": "https://venturebeat.com/author/michelle-buckner"
+    },
+    {
+      "text": "Image credit: VentureBeat with ChatGPT",
+      "url": "https://venturebeat.com/ai/googles-new-ai-training-method-helps-small-models-tackle-complex-reasoning"
+    },
+    {
+      "text": "Google Cloud",
+      "url": "https://research.google/teams/cloud-ai-research/"
+    },
+    {
+      "text": "Supervised Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2510.25992"
+    },
+    {
+      "text": "Ben Dickson",
+      "url": "https://venturebeat.com/author/ben-dickson-techtalks"
+    },
+    {
+      "text": "Credit: VentureBeat made with FAL.ai",
+      "url": "https://venturebeat.com/ai/chatgpt-group-chats-are-here-but-not-for-everyone-yet"
+    },
+    {
+      "text": "leaked code and publicized by AI influencers on X",
+      "url": "https://x.com/btibor91/status/1988029080726630822?s=20"
+    },
+    {
+      "text": "ChatGPT now offers Group Chats,",
+      "url": "https://openai.com/index/group-chats-in-chatgpt/"
+    },
+    {
+      "text": "Carl Franzen",
+      "url": "https://venturebeat.com/author/carlfranzen"
+    },
+    {
+      "text": "Credit: VentureBeat, generated with MidJourney",
+      "url": "https://venturebeat.com/ai/openai-experiment-finds-that-sparse-models-could-give-ai-builders-the-tools"
+    },
+    {
+      "text": "selling point of reasoning models",
+      "url": "https://venturebeat.com/ai/large-reasoning-models-almost-certainly-can-think"
+    },
+    {
+      "text": "Emilia David",
+      "url": "https://venturebeat.com/author/emilia-david"
+    },
+    {
+      "text": "Credit: VentureBeat made with FAL.ai",
+      "url": "https://venturebeat.com/ai/baidu-unveils-proprietary-ernie-5-beating-gpt-5-performance-on-charts"
+    },
+    {
+      "text": "GPT-5 to GPT-5.1",
+      "url": "https://venturebeat.com/ai/openai-reboots-chatgpt-experience-with-gpt-5-1-after-mixed-reviews-of-gpt-5"
+    },
+    {
+      "text": "Baidu unveiled its next-generation foundation model, ERNIE 5.0,",
+      "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html?tc=eml_cleartime"
+    },
+    {
+      "text": "Credit: VentureBeat made with Midjourney",
+      "url": "https://venturebeat.com/ai/upwork-study-shows-ai-agents-excel-with-human-partners-but-fail"
+    },
+    {
+      "text": "groundbreaking research",
+      "url": "https://www.upwork.com/static/webflow/assets/webflow-human-agent-productivity-index/upbench_paper.pdf"
+    },
+    {
+      "text": "Michael Nuñez",
+      "url": "https://venturebeat.com/author/michael_nunez"
+    },
+    {
+      "text": "Inside LinkedIn’s generative AI cookbook: How it scaled people search to 1.3 billion users",
+      "url": "https://venturebeat.com/ai/inside-linkedins-generative-ai-cookbook-how-it-scaled-people-search-to-1-3"
+    },
+    {
+      "text": "Matt Marshall",
+      "url": "https://venturebeat.com/author/matt-marshall"
+    },
+    {
+      "text": "Credit: VentureBeat made with Midjourney",
+      "url": "https://venturebeat.com/ai/alembic-melted-gpus-chasing-causal-a-i-now-its-running-one-of-the-fastest"
+    },
+    {
+      "text": "cause-and-effect relationships",
+      "url": "https://venturebeat.com/ai/exclusive-alembic-debuts-hallucination-free-ai-for-enterprise-data-analysis-and-decision-support"
+    },
+    {
+      "text": "Nvidia NVL72 superPOD",
+      "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/"
+    },
+    {
+      "text": "Credit: VentureBeat made with ChatGPT",
+      "url": "https://venturebeat.com/ai/weibos-new-open-source-ai-model-vibethinker-1-5b-outperforms-deepseek-r1-on"
+    },
+    {
+      "text": "Credit: VentureBeat made with Midjourney",
+      "url": "https://venturebeat.com/ai/how-deductive-ai-saved-doordash-1-000-engineering-hours-by-automating"
+    },
+    {
+      "text": "Engineers are drowning in debugging work",
+      "url": "https://algocademy.com/blog/why-debugging-takes-longer-than-writing-the-actual-code/"
+    },
+    {
+      "text": "flagship model GPT-5",
+      "url": "https://venturebeat.com/ai/openai-launches-gpt-5-not-agi-but-capable-of-generating-software-on-demand"
+    }
+  ],
+  "feeds": [],
+  "discovered_feed_urls": [],
+  "timings_ms": {
+    "total": 1111
+  },
+  "ts": "2025-11-17T10:56:18.351Z"
+}
