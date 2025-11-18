@@ -24,15 +24,20 @@ Coordinate multiple crawl-single-url subagents to process news sources in parall
 - Launch all subagents in parallel for maximum efficiency
 - After all subagents complete, collect and analyze their results
 - Generate a newsletter with the top 5 most important stories
+- **IMPORTANT: Provide verbose status updates throughout execution**
 
 **Key Steps:**
 1. Read the sources file to extract URLs and output directory names
 2. Clean the output directory
-3. Launch multiple Task tool calls in parallel (one per URL) to invoke the crawl-single-url subagent
-4. Wait for all subagents to complete
-5. Read all result.json files produced by subagents
-6. Analyze content to identify important stories (duplicates across sources = important)
-7. Generate and save the newsletter
+3. **Report the list of sources being processed (count and names)**
+4. Launch multiple Task tool calls in parallel (one per URL) to invoke the crawl-single-url subagent
+5. **Report "Launching X subagents in parallel..." before invoking them**
+6. Wait for all subagents to complete
+7. **Report completion status for each subagent (success/failure)**
+8. Read all result.json files produced by subagents
+9. Analyze content to identify important stories (duplicates across sources = important)
+10. Generate and save the newsletter
+11. **Provide execution summary with metrics**
 
 ## Workflow
 
@@ -66,6 +71,17 @@ Purpose:
 
 ### 4. Delegate to Subagents in Parallel
 
+**BEFORE launching subagents, report to the user:**
+```markdown
+Found X sources to crawl:
+1. source-name-1 → URL
+2. source-name-2 → URL
+3. source-name-3 → URL
+...
+
+🚀 Launching X subagents in parallel...
+```
+
 For each source in the SOURCES_FILE, delegate to the `crawl-single-url` subagent:
 
 **CRITICAL: Use the Task tool to invoke subagents**
@@ -89,13 +105,29 @@ Send one message with multiple Task tool uses:
 
 ### 5. Collect Results
 
-- Read all `result.json` files from each output directory
+**Report subagent completion:**
+```markdown
+✅ All subagents completed. Collecting results...
+```
+
+For each expected output directory:
+- Check if `result.json` exists
+- Read and parse the JSON
+- Track success/failure for each source
 - Extract the following from each source:
   - Page title and status
   - Article snippets
   - Links to articles
   - RSS feed data (if available)
   - Timestamps
+
+**Report collection status:**
+```markdown
+Collected results from X/Y sources:
+✅ source-1 - XX articles found
+✅ source-2 - XX articles found
+❌ source-3 - No results (crawl may have failed)
+```
 
 ### 6. Analyze and Identify Important Stories
 
@@ -123,6 +155,44 @@ Send one message with multiple Task tool uses:
 - Generate timestamp: `YYYY-MM-DD` format
 - Save newsletter as: `{OUTPUT_BASE_DIR}/ai-news-digest-{TIMESTAMP}.md`
 - Inform user of the output file location
+
+### 9. Report Execution Summary
+
+After newsletter generation, provide a detailed execution summary:
+
+```markdown
+## Execution Summary
+
+### Subagent Execution
+- **Total Sources:** X
+- **Successful Crawls:** X
+- **Failed Crawls:** X
+- **Success Rate:** XX%
+
+### Subagent Status Details
+✅ source-name-1 - Success (XXX articles found)
+✅ source-name-2 - Success (XXX articles found)
+❌ source-name-3 - Failed (reason)
+✅ source-name-4 - Success (XXX articles found)
+
+### Newsletter Metrics
+- **Total Articles Collected:** XXX
+- **Stories in Newsletter:** X
+- **Top Stories (multi-source):** X
+- **Additional Stories:** X
+- **Output File:** `pw-out/ai-news-digest-YYYY-MM-DD.md`
+
+### Token Usage
+Note: Token consumption is visible in the Claude Code UI during execution.
+Each subagent and the coordinator consume tokens independently.
+Check the UI for detailed token usage metrics.
+```
+
+This summary helps users understand:
+- Which sources succeeded/failed
+- How many articles were found
+- Newsletter composition
+- Where to find the output
 
 ## Output Format
 

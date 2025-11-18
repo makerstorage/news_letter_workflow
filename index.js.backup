@@ -39,23 +39,9 @@ const { chromium } = require('playwright');
   // Make headless a bit less obvious
   await context.addInitScript(() => {
     Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-
-    // Block window.open pop-ups
-    window.open = function() { return null; };
-
-    // Block alert, confirm, prompt (backup)
-    window.alert = function() {};
-    window.confirm = function() { return false; };
-    window.prompt = function() { return null; };
   });
 
   const page = await context.newPage();
-
-  // Block JavaScript dialogs
-  page.on('dialog', async (dialog) => {
-    console.log(`Blocked ${dialog.type()} dialog: ${dialog.message()}`);
-    await dialog.dismiss();
-  });
 
   // ---------- navigate ----------
   let resp = null;

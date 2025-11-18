@@ -2,14 +2,32 @@
 # Format: URL | output-directory-name
 # Lines starting with # are comments and will be ignored
 
-# Startup and product launches, funding rounds, AI industry news
-https://techcrunch.com/tag/artificial-intelligence/ | techcrunch
+# BBC Innovation + AI coverage
+https://www.bbc.com/innovation/artificial-intelligence | bbc
 
-# Enterprise AI, generative-AI research, and company updates
+# TechCrunch AI – startup launches, funding rounds, industry news
+https://techcrunch.com/category/artificial-intelligence/ | techcrunch-category
+
+# VentureBeat AI – enterprise AI, generative AI, company updates
 https://venturebeat.com/category/ai/ | venturebeat
 
-# Academic research, policy, and deep-tech AI breakthroughs
-https://www.technologyreview.com/topic/artificial-intelligence/ | mittechreview
+# The Verge AI – mainstream AI, product updates, policy
+https://www.theverge.com/ai-artificial-intelligence | verge
 
-# Technical deep dives and AI coverage
-# https://arstechnica.com/tag/ai/ | arstechnica
+# Ars Technica AI – technical deep dives
+https://arstechnica.com/tag/ai/ | arstechnica
+
+# Google AI Blog – research and product updates
+https://blog.google/technology/ai/ | googleai
+
+# MIT News – academic AI breakthroughs
+https://news.mit.edu/topic/artificial-intelligence2 | mitnews
+
+# AI News – industry coverage, broad topics
+https://www.artificialintelligence-news.com/ | ainews
+
+# AiNews.com – AI insights & reports
+https://www.ainews.com/ | ainewscom
+
+# AI Magazine – AI, ML, and deep-tech articles
+https://aimagazine.com/ | aimagazine
