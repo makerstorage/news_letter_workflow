@@ -1,0 +1,99 @@
+{
+  "requested_url": "https://blog.google/technology/ai/",
+  "final_url": "https://blog.google/technology/ai/",
+  "status": 200,
+  "title": "Official Google AI news and updates | Google Blog",
+  "snippet": "TECHNOLOGY\nAI\n\nThe work we're doing to make AI helpful for everyone.\n\nFOLLOW US\n\nAI\n\nAsk a Techspert: What is inference?\n\nLearn more about AI and inference from Google experts.\n\nGemini App\n5 ways to have more natural conversations with Gemini\nGemini Deep Research can now connect to your Gmail, Docs, Drive and even Chat.\nTry these tips and prompts for spooky AI images\nResearch\nThe road to useful quantum computing applications\nMeet Project Suncatcher, a research moonshot to scale machine learning compute in space.\nGoogle Research: accelerating scientific breakthroughs to real-world impact\nView more from Research\nDevelopers\nIntroducing the File Search Tool in Gemini API\nImproving Structured Outputs in the Gemini API\nNew tools in Google AI Studio to explore, debug and share logs\nView more from Developers\nAll the Latest\nNOV 17\n·\nCOMPANY ANNOUNCEMENTS\nInvesting in America 2025\nNOV 17\n·\nSEARCH\nNew ways to plan travel with AI in Search\nNOV 17\n·\nGOOGLE DEEPMIND\nWeatherNext 2: Our most advanced weather forecasting model\nNOV 17\n·\nAI\nGoogle is committing $2.25 million to support AI-ready data in Africa.\nNOV 13\n·\nPIXEL\nGoogle Pixel and Golden Goose partner to bring AI to global ateliers\nNOV 11\n·\nAI\nPrivate AI Compute: our next step in building private and helpful AI\nLoad more stories",
+  "links": [
+    {
+      "text": "Technology",
+      "url": "https://blog.google/technology/"
+    },
+    {
+      "text": "Ask a Techspert: What is inference? Learn more about AI and inference from Google experts.",
+      "url": "https://blog.google/technology/ai/ask-a-techspert-what-is-inference/"
+    },
+    {
+      "text": "5 ways to have more natural conversations with Gemini",
+      "url": "https://blog.google/products/gemini/gemini-live-audio-updates/"
+    },
+    {
+      "text": "Gemini Deep Research can now connect to your Gmail, Docs, Drive and even Chat.",
+      "url": "https://blog.google/products/gemini/deep-research-workspace-app-integration/"
+    },
+    {
+      "text": "Try these tips and prompts for spooky AI images",
+      "url": "https://blog.google/products/gemini/gemini-nano-banana-veo-halloween-images/"
+    },
+    {
+      "text": "The road to useful quantum computing applications",
+      "url": "https://blog.google/technology/research/useful-quantum-computing-applications/"
+    },
+    {
+      "text": "Meet Project Suncatcher, a research moonshot to scale machine learning compute in space.",
+      "url": "https://blog.google/technology/research/google-project-suncatcher/"
+    },
+    {
+      "text": "Google Research: accelerating scientific breakthroughs to real-world impact",
+      "url": "https://blog.google/technology/research/google-research-team-tackles-big-challenges-with-science/"
+    },
+    {
+      "text": "View more from Research",
+      "url": "https://blog.google/technology/research/"
+    },
+    {
+      "text": "Introducing the File Search Tool in Gemini API",
+      "url": "https://blog.google/technology/developers/file-search-gemini-api/"
+    },
+    {
+      "text": "Improving Structured Outputs in the Gemini API",
+      "url": "https://blog.google/technology/developers/gemini-api-structured-outputs/"
+    },
+    {
+      "text": "New tools in Google AI Studio to explore, debug and share logs",
+      "url": "https://blog.google/technology/developers/google-ai-studio-logs-datasets/"
+    },
+    {
+      "text": "View more from Developers",
+      "url": "https://blog.google/technology/developers/"
+    },
+    {
+      "text": "Company announcements",
+      "url": "https://blog.google/inside-google/company-announcements/"
+    },
+    {
+      "text": "Investing in America 2025",
+      "url": "https://blog.google/inside-google/company-announcements/investing-in-america-2025/"
+    },
+    {
+      "text": "New ways to plan travel with AI in Search",
+      "url": "https://blog.google/products/search/agentic-plans-booking-travel-canvas-ai-mode/"
+    },
+    {
+      "text": "Google DeepMind",
+      "url": "https://blog.google/technology/google-deepmind/"
+    },
+    {
+      "text": "WeatherNext 2: Our most advanced weather forecasting model",
+      "url": "https://blog.google/technology/google-deepmind/weathernext-2/"
+    },
+    {
+      "text": "Google is committing $2.25 million to support AI-ready data in Africa.",
+      "url": "https://blog.google/technology/ai/ai-ready-data-in-africa/"
+    },
+    {
+      "text": "Google Pixel and Golden Goose partner to bring AI to global ateliers",
+      "url": "https://blog.google/products/pixel/google-pixel-and-golden-goose-partner-to-bring-ai-to-global-ateliers/"
+    },
+    {
+      "text": "Private AI Compute: our next step in building private and helpful AI",
+      "url": "https://blog.google/technology/ai/google-private-ai-compute/"
+    }
+  ],
+  "feeds": [],
+  "discovered_feed_urls": [],
+  "timings_ms": {
+    "total": 3071
+  },
+  "ts": "2025-11-18T10:09:29.238Z"
+}

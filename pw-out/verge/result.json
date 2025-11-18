@@ -1,0 +1,231 @@
+{
+  "requested_url": "https://www.theverge.com/ai-artificial-intelligence",
+  "final_url": "https://www.theverge.com/ai-artificial-intelligence",
+  "status": 200,
+  "title": "Artificial Intelligence | The Verge",
+  "snippet": "AI\nFollow\n\nArtificial intelligence is more a part of our lives than ever before. While some might call it hype and compare it to NFTs or 3D TVs, generative AI is causing a sea change in nearly every part of the technology industry. OpenAI’s ChatGPT is still the best-known AI chatbot around, but with Google pushing Gemini, Microsoft building Copilot, and Apple adding its Intelligence to Siri, AI is probably going to be in the spotlight for a very long time. At The Verge, we’re exploring what might be possible with AI — and a lot of the bad stuff AI does, too.\n\nRELATED /\nANTHROPIC\nXAI\nGoogle is fighting the defamation battle Meta caved on\n\nGoogle says it shouldn’t be held responsible for alleged hallucinations by its AI.\n\nLAUREN FEINER2:11 AM GMT+3\nOpenAI is finally letting employees donate their equity to charity\n\nAnd the company’s price per share has gone up significantly.\n\nHAYDEN FIELD1:47 AM GMT+3\nLATEST IN AI\nR\nRICHARD LAWLER\n4:22 AM GMT+3\nxAI announces Grok 4.1.\n\nThis latest model update arrives without 4.0’s accompanying Nazi chatbot meltdown, albeit reportedly still without some content filtering.\n\nIts developers claim 4.1 “sets a new standard” compared to other bots, based on prerelease testing, as well as reduced hallucinations and greater speed that users preferred over the previous version 64 percent of the time.\n\nGrok 4.1\n\n[XAI]\n\nJ\nJAY PETERS\n4:12 AM GMT+3\nGoogle Vids users are getting ‘select’ Gemini AI features that used to be paid for free.\n\nWith just a Gmail account, you’ll be able to “use AI-generated voiceovers, instantly clean up recordings with transcript trimming to remove silences and filler words, or give your visuals some pop with built-in AI image editing,” according to a blog post.\n\nWe’re expanding access to Gemini in Google Vids.\n\n[GOOGLE]\n\nNEWS\nGoogle updates its weather forecasts with a new AI model\nJUSTINE CALMA1:00 AM GMT+3\nC\nCAMERON FAULKNER\nNOV 17\nThe mythological pantheon of Samsung, SK Hynix, and Micron.\n\nGamers Nexus reports that the cost of many consumer DDR5 and DDR4 RAM kits has increased drastically recently.\n\nBut why? There’s a lot to it, but AI datacenter projects, like OpenAI’s Stargate (which the company expects to require 900,000 semiconductor wafers per month), might be contributing to this trend.\n\nNEWS\nGoogle’s AI Mode can now help you visualize your travel plans\nELISSA WELLENOV 178\nE\nELIZABETH LOPATTO\nNOV 17\nOpenAI board member calls pedophile Jeffrey Epstein his “wing man” in an email.\n\nAfter CEO Sam Altman was fired and then unfired from OpenAI, Larry Summers was added to OpenAI’s board to replace the board members that had nixed Altman. In recently-released email messages, Summers seeks advice from Epstein on pursuing a woman he describes as a “mentee.” Hm!\n\nAs Summers Sought Clandestine Relationship With Woman He Called a Mentee, Epstein Was His ‘Wing Man’ | News | The Harvard Crimson\n\n[HARVARD CRIMSON]\n\nRing’s Jamie Siminoff thinks AI can reduce crime\n\nRing’s ‘chief inventor’ on AI, lost dogs, and why cameras aren’t dystopian.\n\nNILAY PATELNOV 1731\nMeet CoreWeave, the AI industry’s ticking time bomb\n\nTick… tick…\n\nELIZABETH LOPATTONOV 1773\nNEWS\nJeff Bezos will be co-CEO of AI startup Project Prometheus\nDOMINIC PRESTONNOV 1712\nT\nTERRENCE O'BRIEN\nNOV 15\nCo-founder of an AI transcription company claims it was originally just two guys pretending to be AI.\n\nAccording to Sam Udotong, one of the founders of Fireflies.ai, when the company first started in 2017:\n\nWe told our customers there’s an “AI that’ll join a meeting.” In reality it was just me and my co-founder calling in to the meeting sitting there silently and taking notes by hand.\n\nWhile Udotong claims it was clear to these early beta customers that “there was a human in the loop,” it still raises serious privacy concerns and sounds alarmingly close to flat-out fraud.\n\nWe charged $100/month for an AI that was really just two guys surviving on pizza.\n\n[SAM UDOTONG]\n\nREPORT\nI rode in one of the UK’s first self-driving cars\nROBERT HARTNOV 1431\nJ\nJAY PETERS\nNOV 14\nThree Rabbit employees are reportedly on strike over not being paid since July.\n\nThings sound rough over at Rabbit, the maker of the R1 AI gadget, based on this story from Tom’s Guide. A Rabbit rep tells the publication that the company expects additional funding to “close in the coming weeks,” but it couldn’t disclose the investor.\n\nWhat’s next for Rabbit? Employees say they haven’t been paid for months while company teases new AI hardware\n\n[TOM'S GUIDE]\n\nJ\nJAY PETERS\nNOV 14\nApple says developers must get permission from users to share their data with third-party AI.\n\nApple noted requirement as part of its updated App Review Guidelines changelog:\n\n5.1.2(i): Clarifies that you must clearly disclose where personal data will be shared with third parties, including with third-party AI, and obtain explicit permission before doing so.\n\nYou can see the full guidelines on Apple’s website.\n\nNEWS\nAnthropic details how it measures Claude’s wokeness\nEMMA ROTHNOV 1315\nNEWS\nHackers use Anthropic’s AI model Claude once again\nELISSA WELLENOV 132\nNEWS\nMozilla announces an AI ‘window’ for Firefox\nELISSA WELLENOV 1318\nAI\nWorld Labs is betting on ‘world generation’ as the next AI frontier\nHAYDEN FIELDNOV 131\nNEWS\nEven Realities’ new smart glasses ditch cameras and speakers\nEMMA ROTHNOV 136\nNEWS\nGoogle’s NotebookLM will now do ‘deep research’\nELISSA WELLENOV 133\nNEWS\nLinkedIn is making it easier to search for people with AI\nEMMA ROTHNOV 134\nTECH\nWatch Google DeepMind’s new AI agent learn to play video games\nHAYDEN FIELDNOV 132\nNEWS\nThe future of Disney Plus could involve AI-generated videos\nEMMA ROTHNOV 1317\nThe company at the heart of the AI bubble\n\nThe Nvidia-backed data center company is part of a growing ecosystem of so-called neoclouds propping up the AI industry and its insatiable hunger for compute.\n\nNILAY PATELNOV 1363\nNEWS\nGoogle will let users call stores, browse products, and check out using AI\nMIA SATONOV 132\nNEWS\nSpotify’s new audiobook recap feature uses AI to remind you of the story so far\nELISSA WELLENOV 133\nJ\nJUSTINE CALMA\nNOV 13\nData centers are already influencing the global forecast for clean energy.\n\nGrowing electricity demand for AI and the Trump administration’s love of natural gas have influenced the International Energy Agency’s latest World Energy Outlook, Heatmap reports.\n\nData Centers and Natural Gas Are Bending the Climate Transition Curve, IEA Says\n\n[HEATMAP NEWS]\n\nNEWS\nOpenAI says the brand-new GPT-5.1 is ‘warmer’ and has more ‘personality’ options\nHAYDEN FIELD and TOM WARRENNOV 1218\nNEWS\nAnthropic will invest $50 billion in building AI data centers in the US\nEMMA ROTHNOV 124\nC\nCHARLES PULLIAM-MOORE\nNOV 12\nGore Verbinski has something to say about the AI apocalypse.\n\nIn Good Luck, Have Fun, Don’t Die, a strange man (Sam Rockwell) needs everyone in a diner to believe that he’s really from a future where humanity has been all but destroyed artificial intelligence. His story’s wild, but to people living in 2025, it’s not all that hard to believe. Movie’s out February 13th.\n\nD\n2\nDOMINIC PRESTON\nNOV 12\nGoogle Drive gets PDF podcasts.\n\nThe same AI tech that powers Google’s NotebookLM can now be used to generate two to 10-minute podcast-style summaries of PDFs in Drive. It’s English-language only for now, and limited to Workspace users and subscribers to Google’s One AI Pro and Ultra plans.\n\nGoogle Workspace Updates: New AI-powered audio overviews for PDFs in Google Drive\n\n[WORKSPACE UPDATES BLOG]\n\nNEWS\nGoogle is introducing its own version of Apple’s private AI cloud compute\nROBERT HARTNOV 1121\nL\n15\nLAUREN FEINER\nNOV 11\nNew Yorkers are learning which services use their data to set prices.\n\nNew York State’s Algorithmic Pricing Disclosure Act took effect on Monday, requiring businesses to disclose when they use algorithms to adjust prices based on consumers’ personal information, including location and shopping habits. Some are reporting seeing notices in apps like DoorDash alerting them to this tactic.\n\nT\n7\nTODD HASELTON\nNOV 11\nMeta’s chief AI scientist Yann LeCun reportedly plans to leave.\n\nThe Financial Times says LeCun is planning to launch his own start-up and is in early talks to raise funding for it. He’s reportedly planning to leave in the coming months. Meta recently cut approximately 600 jobs from LeCun’s Fundamental AI Research unit as the company shifts its focus to the Superintelligence Labs group, led by chief AI officer Alexandr Wang. Wang was the CEO of Scale AI, which Meta acquired for $14.3 billion.\n\nMeta chief AI scientist Yann LeCun plans to exit and launch own start-up\n\n[FT]\n\nL\n1\nLAUREN FEINER\nNOV 11\nTicketing platforms are bracing for AI agents.\n\nWhat happens when AI agents take over the work of comparing ticket prices and seat selections across vendors, potentially diminishing the value of all those marketplaces? Sportico writes about the DoorDash problem of the entertainment industry, and how ticket vendors are preparing for a world of agentic buying.\n\nAI Companies Want to Change How You Buy Tickets\n\n[SPORTICO.COM]\n\nD\n1\nDOMINIC PRESTON\nNOV 11\nChatGPT violated copyright, German court rules.\n\nIt’s the latest legal ruling that training on copyrighted materials without permission violates said copyright, ignoring OpenAI’s argument that users should be the ones held liable.\n\nGerman music rights society GEMA filed the case on behalf of the lyricists behind nine of the country’s biggest hits, though OpenAI says it’s considering an appeal.\n\nChatGPT violated copyright law by ‘learning’ from song lyrics, German court rules\n\n[THE GUARDIAN]\n\nNEWS\nAI chatbots are helping hide eating disorders and making deepfake ‘thinspiration’\nROBERT HARTNOV 112\nNEWS\nElevenLabs’ new AI marketplace lets brands use famous voices for ads\nJESS WEATHERBEDNOV 118\nNEWS\nGoogle Photos lets iPhone users edit images by describing changes\nJESS WEATHERBEDNOV 115\nNEWS\nSamsung brings a generative AI-powered Bixby to its TVs\nDOMINIC PRESTONNOV 114\nNEWS\nGoogle says its confusing Gemini Home rollout is going just great\nJENNIFER PATTISON TUOHYNOV 1043\nPagination\nPAGE 1 OF 15\nNEXT\nMOST POPULAR\nMost Popular\nI looked into CoreWeave and the abyss gazed back\nGoogle is collecting troves of data from downgraded Nest thermostats\nMSI’s $380 QD-OLED gaming monitor is one of 2025’s best deals so far\nJeff Bezos will be co-CEO of AI startup Project Prometheus\nThe Steam Machine feels like the TV gaming PC I’ve always wanted\nThe Verge Daily\n\nA free daily digest of the news that matters most.\n\nEmail (required)\nSIGN UP",
+  "links": [
+    {
+      "text": "Google is fighting the defamation battle Meta caved on",
+      "url": "https://www.theverge.com/news/822636/google-robby-starbuck-defamation-lawsuit-ai-chatbot"
+    },
+    {
+      "text": "OpenAI is finally letting employees donate their equity to charity",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/822496/openai-employee-equity-donation-charity-rounds-share-valuation"
+    },
+    {
+      "text": "without 4.0’s accompanying Nazi chatbot meltdown",
+      "url": "https://www.theverge.com/x-ai/703721/grok-4-x-ai-elon-musk-live-demo"
+    },
+    {
+      "text": "without some content filtering",
+      "url": "https://x.com/minimaxir/status/1990538328698175557"
+    },
+    {
+      "text": "prerelease testing",
+      "url": "https://lmarena.ai/leaderboard/text"
+    },
+    {
+      "text": "Grok 4.1",
+      "url": "https://x.ai/news/grok-4-1"
+    },
+    {
+      "text": "according to a blog post",
+      "url": "https://blog.google/products/workspace/google-vids-expands-ai-access/"
+    },
+    {
+      "text": "Google updates its weather forecasts with a new AI model",
+      "url": "https://www.theverge.com/news/822489/weather-forecast-ai-model-google-weathernext"
+    },
+    {
+      "text": "OpenAI’s Stargate",
+      "url": "https://www.theverge.com/2025/1/21/24348816/openai-softbank-ai-data-center-stargate-project"
+    },
+    {
+      "text": "900,000 semiconductor wafers per month",
+      "url": "https://www.theverge.com/news/789687/openai-samsung-stargate-chips"
+    },
+    {
+      "text": "Google’s AI Mode can now help you visualize your travel plans",
+      "url": "https://www.theverge.com/news/822240/google-ai-mode-travel-plans-canvas"
+    },
+    {
+      "text": "CommentsComment Icon Bubble8",
+      "url": "https://www.theverge.com/news/822240/google-ai-mode-travel-plans-canvas#comments"
+    },
+    {
+      "text": "Sam Altman was fired",
+      "url": "https://www.theverge.com/2024/5/28/24166713/openai-helen-toner-explains-why-sam-altman-was-fired"
+    },
+    {
+      "text": "unfired from OpenAI",
+      "url": "https://www.theverge.com/2023/11/29/23982046/sam-altman-interview-openai-ceo-rehired"
+    },
+    {
+      "text": "was added",
+      "url": "https://www.theverge.com/2023/11/22/23967223/sam-altman-returns-ceo-open-ai"
+    },
+    {
+      "text": "As Summers Sought Clandestine Relationship With Woman He Called a Mentee, Epstein Was His ‘Wing Man’ | News | The Harvard Crimson",
+      "url": "https://www.thecrimson.com/article/2025/11/17/summers-epstein-wing-man-woman-described-as-mentee/"
+    },
+    {
+      "text": "Ring’s Jamie Siminoff thinks AI can reduce crime",
+      "url": "https://www.theverge.com/podcast/822038/ring-jamie-siminoff-camera-ai-crime-surveillance-home-security"
+    },
+    {
+      "text": "CommentsComment Icon Bubble31",
+      "url": "https://www.theverge.com/podcast/822038/ring-jamie-siminoff-camera-ai-crime-surveillance-home-security#comments"
+    },
+    {
+      "text": "Meet CoreWeave, the AI industry’s ticking time bomb",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/822011/coreweave-debt-data-center-ai"
+    },
+    {
+      "text": "CommentsComment Icon Bubble73",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/822011/coreweave-debt-data-center-ai#comments"
+    },
+    {
+      "text": "Jeff Bezos will be co-CEO of AI startup Project Prometheus",
+      "url": "https://www.theverge.com/news/821943/jeff-bezos-project-prometheus-co-ceo-funding-ai-startup"
+    },
+    {
+      "text": "CommentsComment Icon Bubble12",
+      "url": "https://www.theverge.com/news/821943/jeff-bezos-project-prometheus-co-ceo-funding-ai-startup#comments"
+    },
+    {
+      "text": "serious privacy concerns",
+      "url": "https://www.pcgamer.com/software/ai/usd1-billion-ai-company-co-founder-admits-that-its-usd100-a-month-transcription-service-was-originally-two-guys-surviving-on-pizza-and-typing-out-notes-by-hand/"
+    },
+    {
+      "text": "We charged $100/month for an AI that was really just two guys surviving on pizza.",
+      "url": "https://www.linkedin.com/posts/sudotong_we-charged-100month-for-an-ai-that-was-activity-7393690382884044800-9X8J?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABhj50Bf_azGa1hMiJ4P_6OngwMiM9eInU"
+    },
+    {
+      "text": "I rode in one of the UK’s first self-driving cars",
+      "url": "https://www.theverge.com/report/820324/wayve-driverless-robotaxi-london"
+    },
+    {
+      "text": "CommentsComment Icon Bubble31",
+      "url": "https://www.theverge.com/report/820324/wayve-driverless-robotaxi-london#comments"
+    },
+    {
+      "text": "R1 AI gadget",
+      "url": "https://www.theverge.com/2024/5/2/24147159/rabbit-r1-review-ai-gadget"
+    },
+    {
+      "text": "from Tom’s Guide",
+      "url": "https://www.tomsguide.com/ai/whats-next-for-rabbit-employees-say-they-havent-been-paid-for-months-while-company-teases-new-ai-hardware"
+    },
+    {
+      "text": "App Review Guidelines changelog",
+      "url": "https://developer.apple.com/news/?id=ey6d8onl"
+    },
+    {
+      "text": "on Apple’s website",
+      "url": "https://developer.apple.com/app-store/review/guidelines/"
+    },
+    {
+      "text": "Anthropic details how it measures Claude’s wokeness",
+      "url": "https://www.theverge.com/news/819216/anthropic-claude-political-even-handedness-woke-ai"
+    },
+    {
+      "text": "CommentsComment Icon Bubble15",
+      "url": "https://www.theverge.com/news/819216/anthropic-claude-political-even-handedness-woke-ai#comments"
+    },
+    {
+      "text": "Hackers use Anthropic’s AI model Claude once again",
+      "url": "https://www.theverge.com/news/820458/hackers-china-ai-anthropic-claude"
+    },
+    {
+      "text": "CommentsComment Icon Bubble2",
+      "url": "https://www.theverge.com/news/820458/hackers-china-ai-anthropic-claude#comments"
+    },
+    {
+      "text": "Mozilla announces an AI ‘window’ for Firefox",
+      "url": "https://www.theverge.com/news/820196/mozilla-firefox-ai-window-browser"
+    },
+    {
+      "text": "CommentsComment Icon Bubble18",
+      "url": "https://www.theverge.com/news/820196/mozilla-firefox-ai-window-browser#comments"
+    },
+    {
+      "text": "World Labs is betting on ‘world generation’ as the next AI frontier",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/820016/world-labs-is-betting-on-world-generation-as-the-next-ai-frontier"
+    },
+    {
+      "text": "CommentsComment Icon Bubble1",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/820016/world-labs-is-betting-on-world-generation-as-the-next-ai-frontier#comments"
+    },
+    {
+      "text": "Even Realities’ new smart glasses ditch cameras and speakers",
+      "url": "https://www.theverge.com/news/820120/even-realities-g2-smart-glasses-r1-ring-launch-ai"
+    },
+    {
+      "text": "CommentsComment Icon Bubble6",
+      "url": "https://www.theverge.com/news/820120/even-realities-g2-smart-glasses-r1-ring-launch-ai#comments"
+    },
+    {
+      "text": "Google’s NotebookLM will now do ‘deep research’",
+      "url": "https://www.theverge.com/news/820022/google-notebooklm-gemini-deep-research"
+    },
+    {
+      "text": "CommentsComment Icon Bubble3",
+      "url": "https://www.theverge.com/news/820022/google-notebooklm-gemini-deep-research#comments"
+    },
+    {
+      "text": "LinkedIn is making it easier to search for people with AI",
+      "url": "https://www.theverge.com/news/819908/linkedin-ai-people-search-launch"
+    },
+    {
+      "text": "CommentsComment Icon Bubble4",
+      "url": "https://www.theverge.com/news/819908/linkedin-ai-people-search-launch#comments"
+    },
+    {
+      "text": "Watch Google DeepMind’s new AI agent learn to play video games",
+      "url": "https://www.theverge.com/tech/819937/google-deepmind-ai-agent-sima-2-agi-video-games"
+    },
+    {
+      "text": "CommentsComment Icon Bubble2",
+      "url": "https://www.theverge.com/tech/819937/google-deepmind-ai-agent-sima-2-agi-video-games#comments"
+    },
+    {
+      "text": "The future of Disney Plus could involve AI-generated videos",
+      "url": "https://www.theverge.com/news/819980/disney-plus-ai-videos-bob-iger-q4-2025-earnings"
+    },
+    {
+      "text": "CommentsComment Icon Bubble17",
+      "url": "https://www.theverge.com/news/819980/disney-plus-ai-videos-bob-iger-q4-2025-earnings#comments"
+    },
+    {
+      "text": "The company at the heart of the AI bubble",
+      "url": "https://www.theverge.com/podcast/819612/coreweave-ai-bubble-nvidia-openai-data-centers"
+    },
+    {
+      "text": "CommentsComment Icon Bubble63",
+      "url": "https://www.theverge.com/podcast/819612/coreweave-ai-bubble-nvidia-openai-data-centers#comments"
+    }
+  ],
+  "feeds": [
+    {
+      "url": "https://www.theverge.com/rss/index.xml",
+      "status": 200,
+      "bytes": 98748,
+      "snippet": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><feed\n\txmlns=\"http://www.w3.org/2005/Atom\"\n\txmlns:thr=\"http://purl.org/syndication/thread/1.0\"\n\txml:lang=\"en-US\"\n\t>\n\t<title type=\"text\">The Verge</title>\n\t<subtitle type=\"text\">The Verge is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning features and investigations, on our site, in video, and in podcasts.</subtitle>\n\n\t<updated>2025-11-17T23:11:07+00:00</updated>\n\n\t<link rel=\"alternate\" type=\"text/html\" href=\"https://www.theverge.com\" />\n\t<id>https://www.theverge.com/rss/index.xml</id>\n\t<link rel=\"self\" type=\"application/atom+xml\" href=\"https://www.theverge.com/rss/index.xml\" />\n\n\t<icon>https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-rss-large_80b47e.png?w=150&amp;h=150&amp;crop=1</icon>\n\t\t<entry>\n\t\t\t\n\t\t\t<author>\n\t\t\t\t<name>Lauren Feiner</name>\n\t\t\t</author>\n\t\t\t\n\t\t\t<title type=\"html\"><![CDATA[Google is fighting the defamation battle Meta caved on]]></title>\n\t\t\t<link rel=\"alternate\" type=\"text/html\" href=\"https://www.theverge.com/news/822636/google-robby-starbuck-defamation-lawsuit-ai-chatbot\" />\n\t\t\t<id>https://www.theverge.com/?p=822636</id>\n\t\t\t<updated>2025-11-17T18:11:07-05:00</updated>\n\t\t\t<published>2025-11-17T18:11:07-05:00</published>\n\t\t\t<category scheme=\"https://www.theverge.com\" term=\"AI\" /><category scheme=\"https://www.theverge.com\" term=\"Google\" /><category scheme=\"https://www.theverge.com\" term=\"News\" /><category scheme=\"https://www.theverge.com\" term=\"Policy\" /><category scheme=\"https://www.theverge.com\" term=\"Politics\" /><category scheme=\"https://www.theverge.com\" term=\"Speech\" /><category scheme=\"https://www.theverge.com\" term=\"Tech\" />\n\t\t\t\t\t\t\t<summary type=\"html\"><![CDATA[Google filed a motion to dismiss a defamation lawsuit brought by anti-corporate diversity activist Robby Starbuck, who claimed Google’s AI falsely associated him with sexual assault allegations and a white nationalist. Starbuck’s claims against Google came after he filed a similar lawsuit against Meta, whose AI he claimed falsely asserted that he’d participated in the [&#8230;]]]></summary>\n\t\t\t\n\t\t\t\t\t\t\t<content type=\"html\">\n\t\t\t\t\t\t\t\t\t\t\t<![CDATA[\n\n\t\t\t\t\t\t\n<figure>\n\n<img alt=\"\" data-caption=\"\" data-portal-copyright=\"\" data-has-syndication-rights=\"1\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25842651/STK093_GOOGLE_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Google filed a motion to dismiss a defamation lawsuit brought by anti-corporate diversity activist Robby Starbuck, who <a href=\"https://www.theverge.com/news/804494/anti-diversity-activist-robby-starbuck-is-suing-google-now\">claimed Google’s AI falsely associated him</a> with sexual assault allegations and a white nationalist.</p>\n\n<p class=\"has-text-align-none\">Starbuck’s claims against Google came after he <a href=\"https://www.theverge.com/news/659809/robby-starbuck-meta-ai-lawsuit\">filed a similar lawsuit against Meta</a>, whose AI he claimed falsely asserted that he’d participated in the January 6th riot at the US Capitol. But <a href=\"https://www.theverge.com/news/757537/meta-robby-starbuck-conservative-activist-ai-bias-advisor\">Meta settled that lawsuit</a> in August and even hired Starbuck as an advisor to help address “ideological and political bias” in its AI chatbot, <a href=\"https://www.wsj.com/tech/ai/meta-robby-starbuck-ai-lawsuit-settlement-6c6e9b0a?mod=tech_lead_pos5\"><em>The Wall Street Journal</em> reported</a>. The outlet <a href=\"https://www.wsj.com/tech/ai/activist-robby-starbuck-sues-google-over-claims-of-false-ai-info-d0a8bdbe?mod=tech_lead_story\">noted last month</a> that so far, no US court had awarded damages for defamation by an AI chatbot.</p>\n\n<p class=\"has-text-align-none\">Starbuck is seeking $15 million in damages from Google. But the company says in its filing that his claims simply re"
+    },
+    {
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "status": 200,
+      "bytes": 121664,
+      "snippet": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><feed\n\txmlns=\"http://www.w3.org/2005/Atom\"\n\txmlns:thr=\"http://purl.org/syndication/thread/1.0\"\n\txml:lang=\"en-US\"\n\t>\n\t<title type=\"text\">AI | The Verge</title>\n\t<subtitle type=\"text\">The Verge is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning features and investigations, on our site, in video, and in podcasts.</subtitle>\n\n\t<updated>2025-11-17T23:11:07+00:00</updated>\n\n\t<link rel=\"alternate\" type=\"text/html\" href=\"https://www.theverge.com/ai-artificial-intelligence\" />\n\t<id>https://www.theverge.com/rss/ai-artificial-intelligence/index.xml</id>\n\t<link rel=\"self\" type=\"application/atom+xml\" href=\"https://www.theverge.com/rss/ai-artificial-intelligence/index.xml\" />\n\n\t<icon>https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-rss-large_80b47e.png?w=150&amp;h=150&amp;crop=1</icon>\n\t\t<entry>\n\t\t\t\n\t\t\t<author>\n\t\t\t\t<name>Lauren Feiner</name>\n\t\t\t</author>\n\t\t\t\n\t\t\t<title type=\"html\"><![CDATA[Google is fighting the defamation battle Meta caved on]]></title>\n\t\t\t<link rel=\"alternate\" type=\"text/html\" href=\"https://www.theverge.com/news/822636/google-robby-starbuck-defamation-lawsuit-ai-chatbot\" />\n\t\t\t<id>https://www.theverge.com/?p=822636</id>\n\t\t\t<updated>2025-11-17T18:11:07-05:00</updated>\n\t\t\t<published>2025-11-17T18:11:07-05:00</published>\n\t\t\t<category scheme=\"https://www.theverge.com\" term=\"AI\" /><category scheme=\"https://www.theverge.com\" term=\"Google\" /><category scheme=\"https://www.theverge.com\" term=\"News\" /><category scheme=\"https://www.theverge.com\" term=\"Policy\" /><category scheme=\"https://www.theverge.com\" term=\"Politics\" /><category scheme=\"https://www.theverge.com\" term=\"Speech\" /><category scheme=\"https://www.theverge.com\" term=\"Tech\" />\n\t\t\t\t\t\t\t<summary type=\"html\"><![CDATA[Google filed a motion to dismiss a defamation lawsuit brought by anti-corporate diversity activist Robby Starbuck, who claimed Google’s AI falsely associated him with sexual assault allegations and a white nationalist. Starbuck’s claims against Google came after he filed a similar lawsuit against Meta, whose AI he claimed falsely asserted that he’d participated in the [&#8230;]]]></summary>\n\t\t\t\n\t\t\t\t\t\t\t<content type=\"html\">\n\t\t\t\t\t\t\t\t\t\t\t<![CDATA[\n\n\t\t\t\t\t\t\n<figure>\n\n<img alt=\"\" data-caption=\"\" data-portal-copyright=\"\" data-has-syndication-rights=\"1\" src=\"https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25842651/STK093_GOOGLE_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100\" />\n\t<figcaption>\n\t\t</figcaption>\n</figure>\n<p class=\"has-text-align-none\">Google filed a motion to dismiss a defamation lawsuit brought by anti-corporate diversity activist Robby Starbuck, who <a href=\"https://www.theverge.com/news/804494/anti-diversity-activist-robby-starbuck-is-suing-google-now\">claimed Google’s AI falsely associated him</a> with sexual assault allegations and a white nationalist.</p>\n\n<p class=\"has-text-align-none\">Starbuck’s claims against Google came after he <a href=\"https://www.theverge.com/news/659809/robby-starbuck-meta-ai-lawsuit\">filed a similar lawsuit against Meta</a>, whose AI he claimed falsely asserted that he’d participated in the January 6th riot at the US Capitol. But <a href=\"https://www.theverge.com/news/757537/meta-robby-starbuck-conservative-activist-ai-bias-advisor\">Meta settled that lawsuit</a> in August and even hired Starbuck as an advisor to help address “ideological and political bias” in its AI chatbot, <a href=\"https://www.wsj.com/tech/ai/meta-robby-starbuck-ai-lawsuit-settlement-6c6e9b0a?mod=tech_lead_pos5\"><em>The Wall Street Journal</em> reported</a>. The outlet <a href=\"https://www.wsj.com/tech/ai/activist-robby-starbuck-sues-google-over-claims-of-false-ai-info-d0a8bdbe?mod=tech_lead_story\">noted last month</a> that so far, no US court had awarded damages for defamation by an AI chatbot.</p>\n\n<p class=\"has-text-align-none\">Starbuck is seeking $15 millio"
+    }
+  ],
+  "discovered_feed_urls": [
+    "https://www.theverge.com/rss/index.xml",
+    "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+  ],
+  "timings_ms": {
+    "total": 6074
+  },
+  "ts": "2025-11-18T10:09:32.589Z"
+}

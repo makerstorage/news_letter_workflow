@@ -4,9 +4,6 @@
 # Node modules
 node_modules/
 
-# Output directory (generated content)
-pw-out/
-
 # OS files
 .DS_Store
 Thumbs.db
